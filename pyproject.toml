@@ -11,7 +11,7 @@ dependencies = [
     "croniter>=6.2.4",
     "psycopg[binary]>=3.1", # Keep compatibility with 3.1--older Python installations/machines can't always install 3.2
     "click>=8.1",
-    "sqlalchemy[asyncio]>=2.0.43",
+    "sqlalchemy[asyncio]>=2.0.57,<2.1.8",
     "typing-extensions>=4.6",
 ]
 requires-python = ">=3.10"
