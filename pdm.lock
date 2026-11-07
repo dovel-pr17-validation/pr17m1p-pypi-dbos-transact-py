@@ -4,8 +4,8 @@
 [metadata]
 groups = ["default", "dev", "otel"]
 strategy = ["inherit_metadata"]
-lock_version = "4.5.0"
-content_hash = "sha256:6d5e49ba64c7371600f195340b7a3d41bbc2ab61f92e5b77288a7f8fb72acd7f"
+lock_version = "4.5.1"
+content_hash = "sha256:57991ce02be07a890998b4d5eb91c906f48ccebcd456d19bddab225cfac7c05e"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -1549,16 +1549,16 @@ files = [
 
 [[package]]
 name = "types-requests"
-version = "2.32.4.20250913"
-requires_python = ">=3.9"
+version = "2.33.0.20261030"
+requires_python = ">=3.10"
 summary = "Typing stubs for requests"
 groups = ["dev"]
 dependencies = [
     "urllib3>=2",
 ]
 files = [
-    {file = "types_requests-2.32.4.20250913-py3-none-any.whl", hash = "sha256:78c9c1fffebbe0fa487a418e0fa5252017e9c60d1a2da394077f1780f655d7e1"},
-    {file = "types_requests-2.32.4.20250913.tar.gz", hash = "sha256:abd6d4f9ce3a9383f269775a9835a4c24e5cd6b9f647d64f88aa4613c33def5d"},
+    {file = "types_requests-2.33.0.20261030-py3-none-any.whl", hash = "sha256:06cfc2e92399bf46eda78a65cd0e2203d29ebbeede78b4ab0a5922f749ce1492"},
+    {file = "types_requests-2.33.0.20261030.tar.gz", hash = "sha256:42d75eb02ed0f8220904c8fc08d3129742e7fce42fd5cf706395c8bb4c0ad990"},
 ]
 
 [[package]]
